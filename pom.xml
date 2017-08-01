@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>Texas-manager</artifactId>
+  <packaging>pom</packaging>
+  <parent>
+  	<groupId>com.yeah</groupId>
+  	<artifactId>Texas-parent</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  </parent>
+  
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.apache.tomcat.maven</groupId>
+  			<artifactId>tomcat7-maven-plugin</artifactId>
+  			<!-- tomcat的内部配置 -->
+  			<configuration>
+  				<!-- 配置端口为8080 -->
+  				<port>8080</port>
+  				<!-- http://服务器的IP地址:8888/资源 -->
+  				<!-- 发布项目的路径 -->
+  				<path>/</path>
+  			</configuration>
+  		</plugin>
+  	</plugins>
+  </build>
+  <modules>
+  	<module>Texas-pojo</module>
+  	<module>Texas-dao</module>
+  	<module>Texas-service</module>
+  	<module>Texas-web</module>
+  </modules>
+</project>
