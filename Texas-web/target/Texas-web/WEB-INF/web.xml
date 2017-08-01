@@ -31,7 +31,7 @@
 
 	<servlet-mapping>
 		<servlet-name>springMVC</servlet-name>
-		<url-pattern>/manager/texas/*</url-pattern>
+		<url-pattern>/manager/*</url-pattern>
 	</servlet-mapping>
 	
 	<!-- Post乱码处理 -->
@@ -53,7 +53,7 @@
 	</filter-mapping>
 	
 	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>show.jsp</welcome-file>
 	</welcome-file-list>
 
 </web-app>
