@@ -1,1 +1,1 @@
-web: mvn tomcat7:run
+web: Java $JAVA_OPTS -jar target/dependency/tomcat.jar --port $PORT target/*.war 

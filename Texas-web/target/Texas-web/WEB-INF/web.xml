@@ -53,7 +53,7 @@
 	</filter-mapping>
 	
 	<welcome-file-list>
-		<welcome-file>show.jsp</welcome-file>
+		<welcome-file>add.jsp</welcome-file>
 	</welcome-file-list>
 
 </web-app>
