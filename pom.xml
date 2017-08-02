@@ -221,6 +221,7 @@
   				<!-- http://服务器的IP地址:8888/资源 -->
   				<!-- 发布项目的路径 -->
   				<path>/</path>
+  				<destFileName>tomcat-runner.jar</destFileName>
   			</configuration>
   		</plugin>
 		</plugins>

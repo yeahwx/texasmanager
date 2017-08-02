@@ -1,1 +1,1 @@
-web: java -jar target/Texas-web.war
+web: java $JAVA_OPTS -jar target/dependency/tomcat-runner.jar --port $PORT target/*.war
