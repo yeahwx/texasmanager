@@ -1,1 +1,1 @@
-web: Java $JAVA_OPTS -jar target/dependency/tomcat.jar --port $PORT target/*.war 
+web: java -jar target/dependency/tomcat-runner.jar --port $PORT target/*.war 
