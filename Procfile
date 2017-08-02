@@ -1,1 +1,1 @@
-web: java -jar target/dependency/tomcat-runner.jar --port $PORT target/*.war 
+web: java -jar target/dependency/tomcat-runner.jar
