@@ -1,1 +1,1 @@
-web: java -jar target/dependency/tomcat-runner.jar
+web: java -jar target/Texas-web.war
