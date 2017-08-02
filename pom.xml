@@ -207,7 +207,6 @@
 					<source>1.8</source>
 					<target>1.8</target>
 					<encoding>UTF-8</encoding>
-					<destFileName>tomcat.jar</destFileName>
 				</configuration>
 			</plugin>
 			<!-- 配置Tomcat插件 -->
@@ -222,6 +221,7 @@
   				<!-- http://服务器的IP地址:8888/资源 -->
   				<!-- 发布项目的路径 -->
   				<path>/</path>
+  				<destFileName>tomcat-runner.jar</destFileName>
   			</configuration>
   		</plugin>
 		</plugins>
