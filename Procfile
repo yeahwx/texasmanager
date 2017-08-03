@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar Texas-web／target/Texas-web.war
+mvn tomcat7:run -am -pl Texas-web.war
