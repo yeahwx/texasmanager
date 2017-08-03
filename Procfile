@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/Texas-web.war
+web: java $JAVA_OPTS -jar Texas-web／target/Texas-web.war
