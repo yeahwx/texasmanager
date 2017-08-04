@@ -209,7 +209,6 @@
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
-			<!-- 配置Tomcat插件 -->
 			<plugin>
   			<groupId>org.apache.tomcat.maven</groupId>
   			<artifactId>tomcat7-maven-plugin</artifactId>
@@ -221,7 +220,6 @@
   				<!-- http://服务器的IP地址:8888/资源 -->
   				<!-- 发布项目的路径 -->
   				<path>/</path>
-  				<destFileName>tomcat-runner.jar</destFileName>
   			</configuration>
   		</plugin>
 		</plugins>

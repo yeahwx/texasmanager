@@ -1,1 +1,1 @@
-mvn tomcat7:run -am -pl Texas-web.war
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
